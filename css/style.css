@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow: hidden; /* TODO: fix this, we need to scroll. */
+}
+
+body {
+  font-size: 17px;
+  line-height: 1.6em;
+  font-family: 'Century';
+  color: #5D6063;
+}
+
+
+.scroll-down-icon  {
+  color:white;
+}
+
+.scroll-down-icon a {
+  color: white; text-decoration: none;
+}
+
+.undecorated {
+	text-decoration: none;
+	color:inherit;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+
+
+  /* Gradient page background */
+  background-color: #F9FAFB;
+  background: -webkit-linear-gradient(bottom, #F9FAFB 0%, #FFFFFF 100%);
+  background: linear-gradient(to top, #F9FAFB 0%, #FFFFFF 100%);
+  background-repeat: no-repeat;
+
+  /* Margin */
+  margin-top: 10px;
+}
+
+
+h1 {
+  font-family: 'Harman Retro';
+  font-weight: normal;
+  font-size: 51px;
+  line-height: 40px;
+  text-transform: lowercase;
+
+  padding-bottom: 12px;
+}
+
+.list-reset {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,48 @@
+
+
+.header-container {
+  background: rgb(0,0,46);
+  background: linear-gradient(331deg, rgba(0,0,46,1) 0%, rgba(1,29,100,1) 75%, rgba(2,36,113,1) 100%);
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.we-are-curieux {
+  min-height: 100vh;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cote {
+    width:45vw;
+    margin:10px;
+    padding: 20px;
+    border: 1px solid #EAEDF0;
+}
+
+.cote-cinema {
+  text-align: left;
+}
+
+.cote-musique {
+
+  text-align: right;
+}
+
+
+.title-box {
+  border-bottom: 1px solid #EAEDF0;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
